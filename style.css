@@ -11,7 +11,7 @@ header {
 }
 
 section {
-    background: rgb(184,156,213);
+    background: rgb(0, 0, 0);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -22,17 +22,88 @@ section {
     margin-right: 5%;
 }
 
-body {
-  color: white;
-  background: black;
-  margin: 0px;
-  font-family: "Chakra Petch", sans-serif;
-}
-
 h1 {
   font-size: 40px;
 }
 
 p {
   font-size: 20px;
+}
+
+img {
+  height: 200px;
+}
+
+<!-- código omitido -->
+
+<section>
+  <h2>Filmes e séries</h2>
+  <div class="categoria-videos">
+    <!-- código omitido -->
+  </div>
+</section>
+
+.categoria-videos {
+  display: flex;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section {
+  background: rgb(184, 156, 213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+/* código omitido */
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+<!-- código omitido -->
+
+<header>ALURAFLIX</header>
+
+<section class="chamada">
+  <div class="chamada-texto">
+    <!-- código omitido -->
+  </div>
+</section>
+
+.chamada {
+  background: rgb(184, 156, 213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+<!-- código omitido -->
+
+<section class="categoria">
+  <h2>Filmes e séries</h2>
+  <div class="categoria-videos">
+    <!-- código omitido -->
+  </div>
+</section>
+
+/* código omitido */
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
 }
